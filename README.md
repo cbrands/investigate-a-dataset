@@ -3,16 +3,15 @@ This is the second project in the Data Analist Nanodegree program from Udacity.
 I choose the No-show appointments dataset.
 
 ## Installation
-I started with a linux virtual machine on Cloud 9. [https://c9.io/](https://c9.io/).
-To install the needed software I used the following commands.
+Install the standard Anaconda distribution. Then type on the terminal.
 ```
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-./Miniconda3-latest-Linux-x86_64.sh
-rm Miniconda3-latest-Linux-x86_64.sh
+conda upgrade conda
+conda upgrade --all
 ```
-restart the terminal.
+
+
 ```
-conda install numpy pandas jupyter
+jupyter notebook --notebook-dir=/investigate-a-dataset --ip='*' --port=8888 --no-browser"
 ```
 
 ## Run jupyter
