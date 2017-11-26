@@ -10,16 +10,18 @@ conda upgrade --all
 ```
 
 
-```
-jupyter notebook --notebook-dir=/investigate-a-dataset --ip='*' --port=8888 --no-browser"
-```
-
 ## Run jupyter
-to run jupyter on c9 use:
+to run jupyter use:
 ```
 jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser
 ```
-Go to [http://investigate-a-dataset-cbrands.c9users.io:8080/tree#](http://investigate-a-dataset-cbrands.c9users.io:8080/tree#)
-and create a new Python3 notebook. Renamed the notebook. 
 
-The notebook can now be found at [http://investigate-a-dataset-cbrands.c9users.io:8080/notebooks/project-2-investigate-a-dataset.ipynb](http://investigate-a-dataset-cbrands.c9users.io:8080/notebooks/project-2-investigate-a-dataset.ipynb)
+point your browser to
+* http://0.0.0.0:8080/tree
+
+Now you can click on the file
+project-2-investigate-a-dataset.ipynb to open the jupyter page. On the jupyter page click on 'Cell' and then 'Run All'
+All the code will now run.
+
+
+
